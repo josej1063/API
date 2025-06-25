@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-separado {
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(155, 155, 155);
+    padding-top: 140px; 
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(230, 192, 2);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+    height: 120px; 
+}
+
+.logo img{
+    margin: 20px;
+    padding: 0;
+    width: 90px;
+    height: 100px;
+}
+
+.lista{
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista li{
+   margin: 20px;
+   padding: 4px;
+   list-style: none;
+}
+
+.lista li a{
+    color: aliceblue;
+    text-decoration: none;
+    border:groove #020101;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.lista li a:hover{
+    color: rgb(216, 215, 215);
+    border: 30px;
+    background-color: #4e4e4e;
+}
+
+.listrazas li{
+   display: grid;
+   place-items: center;
+   
+}
+.title{
+    color: aliceblue;
+    text-align: center;
+}
+.razasas{
+    margin: auto;
+    padding: auto;
+}
+
+.btn{
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0.2s ease;
+    display: flex;
+    display: block;
+    margin: 0 auto;
+    
+}
+.btn:active{
+    transition: scale(0.96);
+}
+
+.container-tdo{
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(155, 155, 155);
+    padding-top: 10px;
+}
+
+.container-img{
+    margin: 0;
+    padding: 20px;
+    border: groove #020101;
+    margin: 30px;
+}
+
+.container-tdo img {
+    width: 120px;   /* Ajusta el tamaño según lo que necesites */
+    height: auto;   /* Mantiene la proporción */
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+}
+.title-tienda{
+    color: #fff;
+}
+
+.par{
+    color: #fff;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
